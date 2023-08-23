@@ -33,7 +33,7 @@ export default function Home() {
 
 
 
-          <ul className={`top-[16vh] transition-all ease-in font-bold border-x-2 border-b-2 md:border-none border-orange-300 duration-300 ${open ? 'opacity-0 md:opacity-100' : ''} bg-orange-100   md:py-0 pt-4 pl-2 md:pl-0 w-full md:w-auto left-0 md:flex flex-row md:items-center  z-[-1] md:z-auto md:static absolute md:bg-transparent`}>
+          <ul className={`top-[20vh] transition-all ease-in font-bold border-x-2 border-b-2 md:border-none border-orange-300 duration-300 ${open ? 'opacity-0 md:opacity-100' : ''} bg-orange-100   md:py-0 pt-4 pl-2 md:pl-0 w-full md:w-auto left-0 md:flex flex-row md:items-center  z-[-1] md:z-auto md:static absolute md:bg-transparent`}>
             {/* <li className="mx-4 md:my-0 my-6 pb-2 border-b-2 md:border-none border-orange-300 cursor-pointer hover:text-orange-600"><a href='#about'>About</a></li> */}
             {/* <li className="mx-4 md:my-0 my-6 pb-2 border-b-2 md:border-none border-orange-300 cursor-pointer hover:text-orange-600"><a href='#eligible'>Eligibility</a></li> */}
             <li className="mx-4 md:my-0 my-6 pb-2 border-b-2 md:border-none border-orange-300 cursor-pointer hover:text-orange-600"><a href='#details'>Details</a></li>
@@ -92,7 +92,7 @@ export default function Home() {
         
         {/* details */}
         <div className='details h-[180vh] lg:h-[60vh] relative'>
-          <div className='cardcontain flex lg:flex-row flex-col justify-center items-center gap-24 lg:gap-6'>
+          <div className='cardcontain flex lg:flex-row flex-col justify-center items-center gap-36 lg:gap-6'>
             <div className='card -mt-[10vh] pt-6 pl-4 pr-6 relative bg-slate-200/90 transition-transform rounded-xl hover:scale-105 hover:shadow-2xl  h-[55vh] w-[80vw] lg:w-[25vw]'>
                 {/* <div className="blur w-full h-full absolute top-0 bg-white"></div> */}
                 <div className="image mb-4 h-[20vh] w-full grid place-items-center">
